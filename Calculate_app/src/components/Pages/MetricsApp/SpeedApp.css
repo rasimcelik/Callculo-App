@@ -1,0 +1,51 @@
+.speedApp {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.speed_c {
+  display: flex;
+}
+.speed-calc-button {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+#basic-addon5 {
+  width: 4rem;
+}
+.speed_c_c {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.form-control {
+  width: 10rem !important;
+}
+@media only screen and (max-width: 480px) {
+  .speedApp {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .speed_r {
+    display: grid !important;
+  }
+  .speed_c {
+    display: grid;
+    margin-bottom: 2rem !important;
+  }
+  .speed-calc-button {
+    margin-top: -0.5rem;
+    margin-left: 0rem;
+  }
+  #basic-addon5 {
+    font-size: 16px;
+    width: 4rem;
+  }
+  .speed_c_c {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .form-control {
+    width: 8rem !important;
+  }
+}

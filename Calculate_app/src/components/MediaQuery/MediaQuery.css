@@ -1,0 +1,134 @@
+/* NAVBAR QUERY */
+@media only screen and (max-width: 480px) {
+  .greatest-navbar {
+    width: 100vw;
+  }
+  .logo {
+    margin-left: 1rem;
+    width: 80px;
+  }
+  .logo-title {
+    font-size: 28px;
+  }
+  .logo-call {
+    font-size: 30px;
+  }
+  .navbarScrollTab {
+    width: 5rem;
+    height: 3.5rem;
+    margin-right: 1rem;
+    border: none;
+  }
+  #navbarScroll {
+    max-height: 150px;
+  }
+  .nav-names {
+    font-size: 1.3rem;
+  }
+  .social {
+    display: flex;
+    margin-right: -1rem;
+    font-size: 1rem;
+  }
+  .nav-item {
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+  }
+}
+/* MAIN JS  */
+@media only screen and (max-width: 480px) {
+  .App {
+    scroll-behavior: smooth;
+    width: 100vw;
+  }
+  #number-icon {
+    display: none;
+  }
+  .a {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    width: 90vw;
+    font-weight: 900;
+    font-size: 22px !important;
+    margin-top: -2rem !important;
+  }
+  #index-span {
+    margin-bottom: 5rem;
+    font-size: 17px !important;
+    color: rgb(128, 128, 128);
+  }
+  #tempSpans {
+    display: none;
+  }
+  .button-area {
+    margin-top: -4rem !important;
+    margin-left: -2rem;
+
+    justify-content: center;
+  }
+  .button-area-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .button-rad {
+    width: 12rem;
+    height: 3.5rem;
+    margin-bottom: 2rem;
+    background-color: lightseagreen;
+  }
+  #main-button {
+    font-size: 24px;
+  }
+}
+/* CONTACT JS QUERY */
+@media only screen and (max-width: 480px) {
+  #contactBody {
+    width: auto;
+    display: flex;
+    height: auto;
+    margin-top: 5rem;
+  }
+  #form-container {
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.4rem 2rem rgba(117, 119, 200, 0.3);
+    margin-top: -2rem !important;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  #form-title1 {
+    margin-top: 1rem;
+  }
+  .form-title {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+    color: rgb(72, 130, 237);
+  }
+  #contactSpan {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 30px;
+    color: rgb(222, 127, 3);
+  }
+  #contact-inputs {
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+  }
+}
+/* CALCULATOR JS QUERY */
+/* Calculator App Media Query is in their own folder and css file */
+
+/* CURRENCY CONVERTER JS QUERY */
+/* Currency App Media Query is in their own folder and css file */

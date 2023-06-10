@@ -1,0 +1,35 @@
+.form-container {
+  display: grid;
+  border-radius: 1rem;
+  box-shadow: 0.4rem 0.4rem 2rem rgba(117, 119, 200, 0.3);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.form-title {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: rgb(72, 130, 237);
+}
+.form-title span {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+  color: rgb(222, 127, 3);
+}
+#contact-inputs {
+  margin-bottom: 1.5rem;
+}
+/* 
+
+
+@media only screen and (max-width: 480px) {
+  .form {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
+} */

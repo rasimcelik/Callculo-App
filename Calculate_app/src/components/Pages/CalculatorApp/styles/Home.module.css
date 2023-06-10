@@ -1,0 +1,287 @@
+.first_wrapper {
+  background-color: var(--main-bg);
+}
+.wrapper {
+  background-color: var(--main-bg);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.outerContainer {
+  background-color: var(--main-bg);
+  border: 2px solid #8294a5;
+  box-shadow: 1px 1px 15px 1px #8294a5;
+  border-radius: 1rem;
+  width: 25%;
+}
+.container {
+  margin: auto;
+  padding: 1rem;
+}
+.container header {
+  display: flex;
+  color: var(--text-1);
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.theme {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+}
+#callculatorLogo {
+  margin-right: 10rem;
+  margin-left: 1rem;
+}
+#callculatorLogo:hover {
+  color: yellowgreen;
+  margin-left: 0.8rem;
+  transition: 0.3s ease-out;
+}
+.theme .theme_title {
+  text-transform: uppercase;
+  margin-right: 10px;
+  letter-spacing: 2px;
+}
+.toggler {
+  counter-reset: theme;
+  background-color: var(--toggle-bg);
+  border-radius: 1rem;
+  padding: 3px;
+  display: flex;
+  width: 3vw;
+  justify-content: space-evenly;
+}
+.toggler input {
+  position: relative;
+  margin: 0;
+}
+.toggler input:not(:last-child) {
+  margin-right: 5px;
+}
+.toggler input::after {
+  transition: 0.1s;
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--toggle-bg);
+}
+.toggler input:checked:after {
+  background-color: var(--primary-1);
+}
+.toggler input::before {
+  content: counter(theme);
+  counter-increment: theme;
+  bottom: 100%;
+  margin-bottom: 5px;
+  position: absolute;
+  left: 50%;
+  color: var(--text-1);
+  transform: translateX(-50%);
+  font-size: 10px;
+}
+
+.display {
+  margin: 1.5rem 0;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  border-radius: 0.9rem;
+  background-color: var(--screen-bg);
+}
+.display textarea {
+  width: inherit;
+  border: none;
+  outline: none;
+  background-color: var(--screen-bg);
+  resize: none;
+  color: var(--text-1);
+  text-align: right;
+  font-size: 24px;
+  width: 240px;
+  margin: auto;
+  margin-right: 0;
+}
+.display textarea::-webkit-scrollbar {
+  display: none;
+}
+.key_pad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  width: fit-content;
+  margin: auto;
+  padding: 1.5rem;
+  background-color: var(--toggle-bg);
+  column-gap: 0.75rem;
+  row-gap: 1rem;
+  border-radius: 0.75rem;
+}
+.error {
+  background: hsl(6, 63%, 50%);
+  font-size: 1rem;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.attribution {
+  color: var(--text-1);
+  font-size: 1rem;
+}
+.attribution a:hover {
+  filter: invert() saturate(250);
+}
+
+@media only screen and (max-width: 480px) {
+  .first_wrapper {
+    width: 100vw;
+  }
+  .wrapper {
+    background: var(--main-bg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+  }
+  .container {
+    display: grid;
+    width: 24rem !important;
+    margin: 3rem 0rem 3rem 0rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .container header {
+    display: flex;
+    color: var(--text-1);
+    margin: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .theme {
+    display: flex;
+    font-size: 15px;
+  }
+  #callculatorLogo {
+    margin-right: 7rem;
+  }
+  .theme .theme_title {
+    text-transform: uppercase;
+    margin-right: 10px;
+    letter-spacing: 4px;
+  }
+  .toggler {
+    counter-reset: theme;
+    background-color: var(--toggle-bg) !important;
+    border-radius: 1rem;
+    padding: 6px;
+
+    display: flex;
+    width: 14vw;
+  }
+  .toggler input {
+    position: relative;
+
+    margin: 0;
+  }
+  .toggler input:not(:last-child) {
+    margin-right: 8px;
+  }
+  .toggler input::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--toggle-bg);
+  }
+  .toggler input:checked:after {
+    background-color: var(--primary-1);
+  }
+  .toggler input::before {
+    content: counter(theme);
+    counter-increment: theme;
+    bottom: 100%;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 50%;
+    color: var(--text-1);
+    transform: translateX(-50%);
+    font-size: 10px;
+  }
+
+  .display {
+    margin: 1rem 0;
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 0.9rem;
+    background-color: var(--screen-bg);
+  }
+  .display textarea {
+    width: inherit;
+    border: none;
+    outline: none;
+    background-color: var(--screen-bg);
+    resize: none;
+    color: var(--text-1);
+    text-align: right;
+    font-size: 26px;
+    width: 150px;
+    margin: 1px auto;
+    margin-right: -0px;
+  }
+  .display textarea::-webkit-scrollbar {
+    display: none;
+  }
+
+  .key_pad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+    background-color: var(--toggle-bg);
+    column-gap: 0.75rem;
+    row-gap: 1rem;
+    border-radius: 0.75rem;
+  }
+  .error {
+    background: hsl(6, 63%, 50%);
+    font-size: 1rem;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .attribution {
+    color: var(--text-1);
+    font-size: 1rem;
+  }
+  .attribution a:hover {
+    filter: invert() saturate(250);
+  }
+}

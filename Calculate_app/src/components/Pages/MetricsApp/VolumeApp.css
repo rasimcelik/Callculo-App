@@ -1,0 +1,23 @@
+.Volume_App {
+  display: grid;
+  justify-content: center;
+  width: auto;
+}
+
+.inner_window {
+  display: grid;
+  justify-content: center;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+}
+
+#dropdown-basic-button {
+  display: flex;
+  width: 11rem !important;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}

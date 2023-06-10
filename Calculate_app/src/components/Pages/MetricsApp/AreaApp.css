@@ -1,0 +1,39 @@
+.Area_App_Outer {
+  display: grid;
+  justify-content: center;
+  width: auto;
+}
+
+.Area_App {
+  display: grid;
+  justify-content: center;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .Area_App_Outer {
+    display: grid;
+    justify-content: center;
+  }
+
+  .Area_App {
+    display: grid;
+    width: 90vw;
+    justify-content: center;
+  }
+  .card-header {
+    display: flex;
+    justify-content: center;
+  }
+  #dropdown-basic-button {
+    display: flex;
+    width: 10rem !important;
+    height: 2.5rem !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+}

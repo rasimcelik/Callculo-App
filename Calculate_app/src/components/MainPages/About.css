@@ -1,0 +1,26 @@
+.who-we-are-p {
+  text-align: justify;
+  margin-top: 1rem;
+}
+h3 {
+  margin-top: 2rem;
+}
+h4 {
+  font-style: italic;
+  color: cadetblue;
+}
+h5 {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+span {
+  color: darkslategrey;
+}
+.photo {
+  width: 17rem;
+  justify-content: center;
+  margin-top: 1rem;
+  box-shadow: 1rem 1rem 3rem rgba(7, 49, 4, 0.326);
+  border-radius: 2rem;
+}

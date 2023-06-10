@@ -1,0 +1,94 @@
+.timeApp {
+  display: flex;
+  justify-content: center;
+}
+#time-card1 {
+  height: auto;
+  width: 40%;
+  background-color: rgba(237, 242, 247, 0.836);
+}
+#time-card2 {
+  margin-left: 3rem;
+  height: auto;
+  width: 50%;
+  background-color: rgba(237, 242, 247, 0.836);
+}
+#rightPanel {
+  height: auto;
+  width: 70%;
+  margin-left: 1rem;
+  background-color: rgba(237, 242, 247, 0.836);
+}
+#time-note {
+  color: rgb(151, 151, 151);
+  margin: 1rem;
+}
+#leftPanel {
+  padding: 3rem;
+  display: block;
+}
+#time-dropdown {
+  width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+#time-dropdown:hover {
+  width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1px dotted rgb(2, 128, 50);
+}
+#time-dropdown2 {
+  width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+#time-dropdown2:hover {
+  width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1px dotted rgb(2, 128, 50);
+}
+
+@media only screen and (max-width: 480px) {
+  .timeApp {
+    display: grid;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  #time-card1 {
+    height: auto;
+    width: 80vw;
+    display: grid !important;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(237, 242, 247, 0.836);
+  }
+
+  #time-note {
+    color: rgb(151, 151, 151);
+    margin: 14px !important;
+    font-size: 16px !important;
+  }
+  #time-dropdown {
+    width: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #time-card2 {
+    margin-top: 2rem;
+    height: 50vh;
+    width: 80vw;
+    display: flex !important;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(237, 242, 247, 0.836);
+  }
+}

@@ -1,0 +1,10 @@
+.leftPanelImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+#leftpanelimage {
+  width: 250px;
+  cursor: pointer;
+}

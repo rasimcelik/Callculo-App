@@ -1,0 +1,70 @@
+{
+  "name": "calculate_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@semantic-ui-react/css-patch": "^1.1.2",
+    "@stitches/react": "^1.2.8",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "cors": "^2.8.5",
+    "eslint-config-react-app": "^7.0.1",
+    "framer-motion": "^7.3.6",
+    "jquery": "^3.6.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-dom": "^18.2.0",
+    "react-dropdown": "^1.10.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "react-select-country-list": "^2.2.3",
+    "react-switch": "^7.0.0",
+    "sanitize.css": "^13.0.0",
+    "sass": "^1.54.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "semantic-ui-css-patch && react-scripts start",
+    "build": "semantic-ui-css-patch && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "semantic-ui-css-patch"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.23.0"
+  }
+}

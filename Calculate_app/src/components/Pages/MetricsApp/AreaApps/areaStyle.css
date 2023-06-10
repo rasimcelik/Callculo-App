@@ -1,0 +1,55 @@
+.temp-outer {
+  display: flex;
+  justify-content: center;
+}
+.area-container {
+  padding: 2rem;
+  justify-content: center;
+  width: 30vw;
+  background-color: rgb(232, 236, 233);
+}
+table {
+  border-collapse: collapse;
+  display: grid;
+  justify-content: center;
+}
+td {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 1em;
+  padding-right: 1rem;
+}
+
+input {
+  text-align: center;
+  width: 8rem;
+  border: 1px transparent black;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .area-container {
+    padding: 2rem;
+    justify-content: center;
+    width: 75vw;
+  }
+  #form {
+    display: grid;
+    width: auto;
+  }
+
+  /* RECTANGLE SETTINGS */
+
+  .area-labels {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .area-alt-labels {
+    font-size: 18px;
+    margin-top: 1rem;
+  }
+  .area-inputs {
+    width: 7rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+#calcbtn {
+  color: #090909;
+  width: auto;
+  padding: 0em 1em;
+  margin-top: 4px;
+  height: 26px;
+  margin-left: -4px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border-radius: 0.5em;
+  background: #f1f0f0;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+#calcbtn:hover {
+  border: 1px solid rgb(11, 147, 70);
+  background-color: rgb(125, 212, 163);
+  color: #fff;
+}
+
+#calcbtn:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}

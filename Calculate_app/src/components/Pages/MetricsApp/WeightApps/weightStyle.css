@@ -1,0 +1,26 @@
+#basic-addon4 {
+  width: 5rem;
+  font-size: 14px;
+  margin-right: 0rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .weightIGT {
+    font-size: 18px !important;
+  }
+  .form-control {
+    font-size: 18px !important;
+  }
+  #kgInput {
+    width: 12rem !important;
+  }
+  #grInput {
+    width: 12rem !important;
+  }
+  #OunceInput {
+    width: 12rem !important;
+  }
+  #poundInput {
+    width: 12rem !important;
+  }
+}
